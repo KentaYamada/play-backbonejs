@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta chatset="utf-8">
+    <title>Todo list</title>
+  </head>
+  <body>
+    <div id="content">
+    </div>
+  </body>
+</html>
+
+<!-- todos view -->
+<script type="text/template" id="todos-tmpl">
+    <thead>
+      <tr>
+        <th>Title</th>
+    </thead>
+    <tbody>
+    </tbody>
+</script>
+
+<!-- todo item view -->
+<script type="text/template" id="todo-item-tmpl">
+  <td><%= title %></td>
+</script>
+
+<!-- jquery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<!-- underscore.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.7.0/underscore-min.js"></script>
+<!-- backbone.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+<!-- backbone.marionette -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.marionette/2.4.4/backbone.marionette.min.js"></script>
+
+<!-- apps -->
+<script src="./model.js"></script>
+<script src="./view.js"></script>
+<script src="./app.js"></script>
+
