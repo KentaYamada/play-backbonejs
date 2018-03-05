@@ -1,7 +1,6 @@
 "use strict";
 
-var Todo = Backbone.Model.extend({
-});
+var Todo = Backbone.Model.extend({});
 
 
 var Todos = Backbone.Model.extend({
